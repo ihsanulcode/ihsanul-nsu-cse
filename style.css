@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Top section style  */
+.blue-color{
+    color: rgb(7, 138, 245);
+}
+.half-width{
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.half-width img{
+    width: 50%;
+}
+.half-width p{
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 120px;
+}
+.links{
+    text-decoration: none;
+    background-color: rgb(7, 138, 245);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+#myface-id{
+    margin-top: 0;
+    padding-left: 120px;
+}
+
+/* course styles */
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.course{
+    display: flex;
+}
+.course .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.get-resource{
+    text-decoration: none;
+    background-color: rgb(7, 138, 245);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
